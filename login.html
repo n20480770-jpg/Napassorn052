@@ -1,0 +1,70 @@
+<!doctype html>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เข้าสู่ระบบ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="header-inner">
+<p class="site-name">เที่ยวบ้านเรา | จังหวัดประจวบคีรีขันธ์</p>
+<nav><ul>
+<li><a href="index.html">หน้าแรก</a></li>
+<li><a href="places.html">ที่เที่ยว</a></li>
+<li><a href="food.html">อาหาร</a></li>
+<li><a href="plan.html">วางแผนเที่ยว</a></li>
+<li><a href="Travel.html">ข้อมูลการเดินทาง</a></li>
+<li><a href="login.html">เข้าสู่ระบบ</a></li>
+</ul></nav>
+</div>
+</header>
+
+<main>
+
+<div class="login-wrap">
+<h1>เข้าสู่ระบบ</h1>
+<p class="page-subtitle">ยินดีต้อนรับเข้าสู่เว็บไซต์เที่ยวบ้านเรา</p>
+
+<form onsubmit="demoLogin(event)">
+
+<label for="username">ชื่อผู้ใช้</label>
+<input type="text" id="username"
+placeholder="กรอกชื่อผู้ใช้" required>
+
+<label for="password">รหัสผ่าน</label>
+<input type="password" id="password"
+placeholder="กรอกรหัสผ่าน" required>
+
+<label for="role">สถานะผู้ใช้งาน</label>
+<select id="role">
+<option>นักเรียน / นักศึกษา</option>
+<option>ผู้เข้าชมเว็บไซต์</option>
+</select>
+
+<button type="submit">เข้าสู่ระบบ</button>
+
+</form>
+
+<p class="note">
+หมายเหตุ: หน้านี้เป็นตัวอย่างการออกแบบหน้าจอเข้าสู่ระบบ
+ยังไม่ได้เชื่อมต่อฐานข้อมูล
+</p>
+
+</div>
+
+</main>
+
+<footer>
+<p>เว็บไซต์จัดทำเพื่อการศึกษา</p>
+<p>ผู้จัดทำ: นภัสสร งิ้วงาม</p>
+<p>ระดับชั้น ปวช.3 สาขาเทคโนโลยีธุรกิจดิจิทัล</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
